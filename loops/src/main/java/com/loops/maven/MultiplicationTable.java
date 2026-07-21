@@ -1,22 +1,26 @@
 package com.loops.maven;
 
-public class MultiplicationTable {
+import java.util.ArrayList;
+import java.util.List;
+
+public class MultiplicationTable implements TableInterface {
 
     public MultiplicationTable() {
 
     }
 
-    public void showTable(int n) {
+    public List<String> createTable(int n) {
+
+        List<String> result = new ArrayList<>();
 
         for (int i = 1; i <= 10; i++) {
-            
+         
+            result.add(n + " x " + i + " = " + (n*i));
+
         }
 
-    }
+        return result;
 
-    public static void main(String[] args) {
-        MultiplicationTable tabla = new MultiplicationTable();
-        tabla.showTable(5);
     }
 
 }
