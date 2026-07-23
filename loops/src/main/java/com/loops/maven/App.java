@@ -8,7 +8,7 @@ public final class App {
 
     public static void main(String[] args) {
         MultiplicationTable tabla = new MultiplicationTable();
-        List<String> resultado = tabla.createTable(5);
+        List<String> resultado = tabla.createTable(3);
         TablePrinter printer = new TablePrinter();
         printer.printTable(resultado);
     }
