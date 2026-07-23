@@ -3,16 +3,11 @@ package com.loops.maven;
 import java.util.List;
 
 public class TablePrinter {
-    public TablePrinter() {
-
+    
+    public String formatTable(List<String> tabla) {
     }
-
+    
     public void printTable(List<String> tabla) {
-
-        for (String linea: tabla) {
-            System.out.println(linea);
-        }
-
+        System.out.println(formatTable(tabla));
     }
-
 }
