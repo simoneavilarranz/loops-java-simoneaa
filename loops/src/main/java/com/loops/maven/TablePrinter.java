@@ -3,7 +3,6 @@ package com.loops.maven;
 import java.util.List;
 
 public class TablePrinter {
-    
     public TablePrinter() {
 
     }
