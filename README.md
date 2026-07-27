@@ -37,3 +37,7 @@ mvn clean verify
 ```
 
 **Luego abrir target/site/jacoco/index.html en el navegador**
+
+# Testing
+
+<img src="loops/assets/coverage.jpg">
