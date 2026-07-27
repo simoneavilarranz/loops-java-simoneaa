@@ -26,10 +26,14 @@ Output:
 
 ## Cómo ejecutar
 
-**Compilar y ejecutar tests:**
+**Compilar y ejecutar tests:**  
+```
 mvn clean test
+```
 
-**Ver reporte de cobertura:**
+**Ver reporte de cobertura:**  
+```
 mvn clean verify  
+```
 
 **Luego abrir target/site/jacoco/index.html en el navegador**
