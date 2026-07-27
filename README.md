@@ -1,6 +1,6 @@
 # loops-java-simoneaa
 
-## Descripción
+# Descripción
 
 
 Crea una clase que tenga la responsabilidad de crear la tabla de multiplicar de un número. Dado un número entero, n, devuelva su tabla de multiplicar (del 1 al 10). Cada múltiplo n * i (donde 1 <= i => 10) debe imprimirse en una nueva línea en la forma: n x i = resultado.
@@ -19,17 +19,17 @@ Output:
 5 x 9 = 45  
 5 x 10 = 50  
 
-## Requisitos
+# Requisitos
 
 - Java 21
 - Maven 3.6.3 o superior
 
 ## Cómo ejecutar
 
-# Compilar y ejecutar tests
+**Compilar y ejecutar tests:**
 mvn clean test
 
-# Ver reporte de cobertura
+**Ver reporte de cobertura:**
 mvn clean verify  
 
-# Luego abrir target/site/jacoco/index.html en el navegador
+**Luego abrir target/site/jacoco/index.html en el navegador**
