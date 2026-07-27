@@ -41,3 +41,20 @@ mvn clean verify
 # Testing
 
 <img src="loops/assets/coverage.jpg">
+
+# Funcionamiento  
+
+## TableInterface
+
+Define el contrato que debe cumplir cualquier clase que genere tablas de multiplicar. Declara un único método createTable(int n) que devuelve una lista de strings con las líneas de la tabla. El uso de una interfaz permite cambiar la implementación sin afectar al resto del código (principio de abstracción).
+
+```java
+package com.loops.maven;
+
+import java.util.List;
+
+public interface TableInterface {
+    public List<String> createTable(int n);
+}
+```
+
