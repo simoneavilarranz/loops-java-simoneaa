@@ -2,19 +2,14 @@
 
 import java.util.List;
 
-public class TablePrinter {
+<span class="fc" id="L5">public class TablePrinter {</span>
     
-<span class="nc" id="L7">    public TablePrinter() {</span>
-
-<span class="nc" id="L9">    }</span>
-
+    public String formatTable(List&lt;String&gt; tabla) {
+<span class="fc" id="L8">        return String.join(&quot;\n&quot;, tabla);</span>
+    }
+    
     public void printTable(List&lt;String&gt; tabla) {
-
-<span class="nc bnc" id="L13" title="All 2 branches missed.">        for (String linea: tabla) {</span>
-<span class="nc" id="L14">            System.out.println(linea);</span>
-<span class="nc" id="L15">        }</span>
-
-<span class="nc" id="L17">    }</span>
-
+<span class="nc" id="L12">        System.out.print(formatTable(tabla));</span>
+<span class="nc" id="L13">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
